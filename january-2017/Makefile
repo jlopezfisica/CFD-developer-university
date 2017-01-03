@@ -7,11 +7,11 @@ CC = g++
 INCLUDE =
 LIBS = -lm
 
-hello:${OBJ}
+hello.o:${OBJ}
 	${CC} ${CFLAG} ${INCLUDES} -o $@ ${OBJS} ${LIBS}
 
 clean:
-	-rm -f hello
+	-rm -f *.o
 
 .cpp.o:
 	${CC} ${CFLAGS} ${INCLUDES} -c $<
