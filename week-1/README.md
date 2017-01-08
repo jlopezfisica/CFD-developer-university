@@ -1,6 +1,6 @@
-###This is the summary of activities from the README
+###This is the summary of activities from the week-1 2017
 It has been an awesome week, I started to follow the C programming language
-book religiously, because it explains the standar library of C and it has
+book religiously, because it describes the standard library of C and it has
 a clear description of the basic features in C. It is imprescindible to
 read it carefully to understand C.
 
@@ -9,7 +9,21 @@ me to check my basic knowledge of these tools. I will print the summary of
 my code in this file by using shell commands such as:
 
 * echo "Hello" > hello.txt 
-  
+* cat hello.txt
+* cat filename > filename2 
+* cat filename >> filename2
+* cat < filename 
+* cat filename | wc
+* sort filename
+* cat filename | sort > sorted-filename 
+* uniq filename
+* sort filename | uniq > sorted-uniqued-filename
+* grep -i filename
+* grep -Rl directoryname
+* sed -i 's/pattern/newpattern/g'
+* env
+* env | grep PATH
+
 and other sort of pipeline commands. Finally, I love learning C because
 if you learn C you also get to know how the linux system works.
 -----------------------------------
