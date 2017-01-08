@@ -83,3 +83,18 @@ find . -name '*.cpp' | xargs wc -l > cat >> README.md
 find . -name 'Makefile' | xargs wc -l > cat >> README.md
 -----------------------------------
 17 ./Makefile
+-------------------------------------------------------------------------------
+git commands from codeacademy
+* git diff filename 
+* git log 
+* git show HEAD
+* git checkout HEAD filename
+* git reset HEAD filename
+* git branch branchname
+* git branch -d branchname
+* git checkout branchname
+* git clone remote_location clone_name
+* git remote -v 
+* git fetch
+* git merge origin/master
+* git push origin your_branch_name
