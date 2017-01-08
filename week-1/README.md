@@ -84,7 +84,7 @@ find . -name 'Makefile' | xargs wc -l > cat >> README.md
 -----------------------------------
 17 ./Makefile
 -------------------------------------------------------------------------------
-git commands from codeacademy
+#### git commands from codeacademy
 * git diff filename 
 * git log 
 * git show HEAD
