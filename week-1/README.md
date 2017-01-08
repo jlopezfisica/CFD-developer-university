@@ -1,4 +1,4 @@
-###This is the summary of activities from the week-1
+###This is the summary of activities from the README
 It has been an awesome week, I started to follow the C programming language
 book religiously, because it explains the standar library of C and it has
 a clear description of the basic features in C. It is imprescindible to
@@ -14,7 +14,7 @@ and other sort of pipeline commands. Finally, I love learning C because
 if you learn C you also get to know how the linux system works.
 -----------------------------------
 -----------------------------------
-find . -name '*.c' | xargs wc -l > cat >> week-1.md
+find . -name '*.c' | xargs wc -l > cat >> README.md
 -----------------------------------
 -----------------------------------
    76 ./getfloat.c
@@ -59,13 +59,13 @@ find . -name '*.c' | xargs wc -l > cat >> week-1.md
    33 ./recursive.c
  1369 total
 -----------------------------------
-find . -name '*.cpp' | xargs wc -l > cat >> week-1.md
+find . -name '*.cpp' | xargs wc -l > cat >> README.md
 -----------------------------------
  11 ./main.cpp
   7 ./hello.cpp
   9 ./factorial.cpp
  27 total
 -----------------------------------
-find . -name 'Makefile' | xargs wc -l > cat >> week-1.md
+find . -name 'Makefile' | xargs wc -l > cat >> README.md
 -----------------------------------
 17 ./Makefile
